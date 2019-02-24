@@ -72,7 +72,6 @@ class TicTacToe
     if valid_move?(index)
       puts 'valid move'
       move(index, token)
-      display_board
     else
       puts 'try again'
       turn
