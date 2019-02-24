@@ -1,7 +1,6 @@
 class TicTacToe
   def initialize
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-    @input = gets.strip
   end
 
   def board=(board)
