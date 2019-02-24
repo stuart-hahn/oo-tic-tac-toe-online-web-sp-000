@@ -22,7 +22,7 @@ class TicTacToe
   [2, 5, 8]  #right column win
 ]
 
-  def display_board(@board)
+  def display_board
     puts @board
   end
 
