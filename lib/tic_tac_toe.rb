@@ -46,4 +46,14 @@ class TicTacToe
     position.between?(0,8) && !position_taken?(position)
   end
 
+  def turn_count
+    count = 0
+    board.each do |position|
+      if position == "X" || position == "O"
+        count += 1
+      end
+    end
+    return count
+  end
+
 end
